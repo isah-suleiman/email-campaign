@@ -43,3 +43,29 @@ This dataset contains information on the performance of email campaigns, collect
    - **Unsubscribed:** Indicates if the recipient unsubscribed from future emails (value = 1).
    - **Conversion:** Indicates if the recipient converted based on the campaign’s goal (value = 1). Conversions include purchases, website visits, form fills, or other defined actions.
 
+**Data Cleaning and Preparation**
+
+For this analysis, I used Power BI to clean and prepare the dataset, leveraging Power Query for exploration and transformation. Here’s a breakdown of the steps I followed:
+
+1. **Ensuring Data Integrity:**  
+   I started by checking the dataset for any missing values or outliers. Thankfully, the data was complete and consistent, so no additional imputation or removal of records was needed.
+
+2. **Exploring the Dataset:**  
+   Using Power Query, I explored the dataset to understand its structure and the relationships between variables. I reviewed the data types to ensure everything was correctly formatted, such as numbers, text, and dates.
+
+3. **Creating New Columns:**  
+   To make the analysis more insightful, I created several conditional columns:  
+   - **Clicked Status:** This column categorizes emails as either "Clicked" or "Not Clicked," based on whether recipients interacted with the content.  
+   - **Opened Status:** Similarly, this column labels emails as "Opened" or "Not Opened" depending on whether recipients viewed them.  
+   - **Conversion Status:** To clarify conversions, I redefined the values in the original "Conversion" column:
+     - A `1` now reads as "Converted."
+     - A `0` now reads as "Not Converted."
+
+4. **Standardizing and Transforming Data:**  
+   - I extracted email domains from the email addresses, which allowed me to analyze engagement and bounce rates by email provider.  
+   - I also standardized text columns like campaign names and client segments to ensure consistency throughout the dataset.  
+
+5. **Final Touches:**  
+   After cleaning and transforming the data, I verified that everything was ready for analysis. The dataset was now clean, well-organized, and prepared for visualizations in Power BI.
+
+This process ensured that the data was easy to work with and provided meaningful insights into the email campaign performance.
