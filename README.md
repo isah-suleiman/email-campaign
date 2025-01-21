@@ -1,6 +1,7 @@
 # Email Campaign Performance Analysis
 
-**Executive Summary**  
+![Cover](digital-marketing.jpg)
+**Summary**  
 
 Every day, we receive countless emails about events, promotions, and newsletters. But have you ever wondered how companies measure the success of these campaigns? This project dives into the email campaign performance of a niche platform designed for DIY creators and readers worldwide.  
 
@@ -89,7 +90,9 @@ This process ensured that the data was easy to work with and provided meaningful
    - **Promotional campaigns** consistently delivered the highest conversion rates, emphasizing the strong appeal of offers and discounts.  
 
 5. **Temporal Trends**  
-   - Engagement peaked in **July**, with a **CTR of 2.65%** and a **conversion rate of 1.48%**, before declining in subsequent months.  
+   - Engagement peaked in **July**, with a **CTR of 2.65%** and a **conversion rate of 1.48%**, before declining in subsequent months.
+  
+![Dash](EmailCampaign_page-0001.jpg)
 
 #### **Recommendations**  
 1. **Improve Device Optimization**  
